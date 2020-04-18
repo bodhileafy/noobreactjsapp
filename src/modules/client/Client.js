@@ -45,7 +45,7 @@ class Client extends Component {
       return (
         <div id="client" className="container">
           <h3>Client Information</h3>
-          <h5>From http://localhost:8080/clients (noobspringbootapp).</h5>
+          <h5>From http://localhost:8081/clients (noobspringbootapp).</h5>
           <Table rows={this.state.list} />  
         </div>
       );  
