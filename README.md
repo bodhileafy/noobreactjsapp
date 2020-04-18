@@ -5,3 +5,5 @@ npm install --global create-react-app
 create-react-app noobreactjsapp
 mv noobreactjsapp/* .
 rmdir noobreactjsapp/
+yarn build
+yarn start
