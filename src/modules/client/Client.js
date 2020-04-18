@@ -9,7 +9,7 @@ class Client extends Component {
   }
 
   listClients() {    
-    fetch('http://localhost:8087/clients',
+    fetch('http://jenkins.aurumsys.com:8087/clients',
     {
        method: "GET",
        headers: {
@@ -45,8 +45,8 @@ class Client extends Component {
       return (
         <div id="client" className="container">
           <h3>Client Information</h3>
-          <h5>From http://localhost:8087/clients (noobspringbootapp).</h5>
-          <Table rows={this.state.list} />  
+          <h5>From http://jenkins.aurumsys.com:8087/clients (noobspringbootapp).</h5>
+          <Table rows={this.state.list} />
         </div>
       );  
     }
